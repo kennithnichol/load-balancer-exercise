@@ -2,18 +2,16 @@
   "name": "load-balancer-exercise",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.5"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "http": "0.0.0",
-    "os": "^0.1.1"
+    "bottleneck": "^2.12.2",
+    "sleep": "^5.2.3"
   }
 }
